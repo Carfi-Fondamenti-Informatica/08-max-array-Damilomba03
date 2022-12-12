@@ -4,15 +4,15 @@ using namespace std;
 
 int main() {
 
-    int x;
-    cin>>x;
-    float a[x];
-    float y;
-    for(int i=0; i<x; i++){
-        cin>>y;
-        a[i]=y;
+    int h;
+    cin>>h;
+    float a[h];
+    float x;
+    for(int i=0; i<h; i++){
+        cin>>x;
+        a[i]=x;
     }
-    cout<<max(a,y);
+    cout<<massimo(a,h);
 
     return 0;
 }
