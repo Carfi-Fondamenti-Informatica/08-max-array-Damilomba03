@@ -1,11 +1,11 @@
 #include "lib.h"
-float max(float a[], int x) {
-    float b=1;
-    for (int i=0; i<x; i++){
-        if(a[i]>b){
-            b=a[i];
+float massimo(float a[], int h) {
+    float d=1;
+    for (int i=0; i<h; i++){
+        if(a[i]>d){
+            d=a[i];
         }
     }
-    return b;
+    return d;
 }
 
